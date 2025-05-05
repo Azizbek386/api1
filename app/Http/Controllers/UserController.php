@@ -99,6 +99,7 @@ class UserController extends Controller
         $user->delete();
         return response()->json([
             'status' => 200,
+            
             'message' => 'User ochirildi'
         ]);
     }
